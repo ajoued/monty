@@ -44,5 +44,6 @@ func check_opcode(char *line);
 stack_t *add_node(stack_t **head, const int n);
 void push_(stack_t **stack, unsigned int line_number);
 void pall_(stack_t **stack, unsigned int line_number);
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 
 #endif
